@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor1: #191013;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor1);
+    width: 100%;
+    padding: 4px 28px;
+    padding: 1.5rem 1rem;
+}
+
+.logo img{
+    width: 40px;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white
+}
+
+
+#contato button{
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
