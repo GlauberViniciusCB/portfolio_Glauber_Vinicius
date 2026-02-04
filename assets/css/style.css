@@ -1,1 +1,40 @@
 /* (estilos principais) */
+@import url(components/header.css);
+
+:root{
+    color: white;
+}
+
+
+.areaTituloPrincipal{
+    width: 800px;
+    text-align: center;
+}
+
+.apresentacao{
+    /* margin: 1.6rem;
+    padding: 1.6rem; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 1px red;
+    background-color: var(--cor1);
+    padding: 60px;
+}
+
+.apresentacao h1{
+    font-size: 2.5rem;
+    padding: 4%;
+}
+
+.apresentacao p{
+    font-size: 1.4rem;
+}
+
+.apresentacao img{
+    width: 450px;
+    height: 450px;
+}
+
